@@ -1,0 +1,49 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: black;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+.numb{
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 15px;
+width: 80px;
+height: 80px;
+border-radius: 50px;
+border: none;
+background-color: #333333;
+}
+#call{
+  background-color: #2fd159;
+}
+#call button{
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: white;
+}
+small{
+  font-size: 10px;
+}
+
+input{
+  background: none;
+  border: none;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+input:focus{
+  outline: none;
+}
